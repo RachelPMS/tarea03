@@ -1,0 +1,13 @@
+uuid: 7c4222af-1832-49f4-b28d-39740b847ebe
+langcode: en
+status: true
+dependencies: {  }
+id: imagenes
+label: imagenes
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

@@ -1,0 +1,14 @@
+uuid: 3ed386f0-3ff0-4a0d-aa71-6f20072b52ce
+langcode: en
+status: true
+dependencies: {  }
+name: imagenes_pequenas
+label: 'Imagenes Pequeñas'
+effects:
+  7b5fcad6-2723-4828-a95a-d1c012e6bc66:
+    uuid: 7b5fcad6-2723-4828-a95a-d1c012e6bc66
+    id: image_resize
+    weight: 1
+    data:
+      width: 400
+      height: 200

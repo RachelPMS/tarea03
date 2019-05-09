@@ -1,0 +1,15 @@
+uuid: 2ab477dc-07d4-4439-a22e-d16ce7f31f54
+langcode: en
+status: true
+dependencies: {  }
+name: imgs_grandes
+label: 'imgs grandes'
+effects:
+  d29bcd36-0149-4db9-9759-0c4054099f81:
+    uuid: d29bcd36-0149-4db9-9759-0c4054099f81
+    id: image_scale
+    weight: 1
+    data:
+      width: 760
+      height: 420
+      upscale: false

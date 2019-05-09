@@ -1,0 +1,38 @@
+uuid: 723c0296-328a-4f68-aa7c-6aca0f8cd577
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foto_de_la_b
+    - node.type.biliotecas
+  module:
+    - image
+id: node.biliotecas.field_foto_de_la_b
+field_name: field_foto_de_la_b
+entity_type: node
+bundle: biliotecas
+label: 'Foto de la Biblioteca'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

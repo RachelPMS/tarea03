@@ -1,0 +1,18 @@
+uuid: adffa5e8-abfc-4664-939c-8f20b34f21a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Biliotecas
+type: biliotecas
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

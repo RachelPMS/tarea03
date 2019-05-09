@@ -1,0 +1,9 @@
+uuid: 42ec2da4-a094-4cbe-b2e3-0393b05570f2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Categorizar Cursos'
+vid: categorizar_cursos
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,18 @@
+uuid: bf729587-ce02-4a41-971c-d7056c412757
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Libros
+type: libros
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

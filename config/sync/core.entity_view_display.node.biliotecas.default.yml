@@ -1,0 +1,68 @@
+uuid: 418711ab-2c00-4c8c-8a57-b944d89e2dcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.biliotecas.body
+    - field.field.node.biliotecas.field_correo_electronico
+    - field.field.node.biliotecas.field_foto_de_la_b
+    - field.field.node.biliotecas.field_foto_de_la_biblioteca
+    - field.field.node.biliotecas.field_nombre_del_encargado
+    - field.field.node.biliotecas.field_numero_de_telefono
+    - node.type.biliotecas
+  module:
+    - image
+    - text
+    - user
+id: node.biliotecas.default
+targetEntityType: node
+bundle: biliotecas
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_correo_electronico:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_foto_de_la_b:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_nombre_del_encargado:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_numero_de_telefono:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_foto_de_la_biblioteca: true

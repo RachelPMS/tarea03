@@ -1,0 +1,23 @@
+uuid: 71b8c86e-a04b-4076-bc33-1a6381c7ad78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_numero_de_telefono
+    - node.type.biliotecas
+id: node.biliotecas.field_numero_de_telefono
+field_name: field_numero_de_telefono
+entity_type: node
+bundle: biliotecas
+label: 'Numero de Telefono'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
