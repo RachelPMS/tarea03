@@ -1,0 +1,14 @@
+uuid: b0cee610-3812-4580-bad0-6bcd00b8b657
+langcode: en
+status: true
+dependencies: {  }
+name: img_libro
+label: img_libro
+effects:
+  bda06c65-2976-4668-a069-a2e1ca6980ca:
+    uuid: bda06c65-2976-4668-a069-a2e1ca6980ca
+    id: image_resize
+    weight: 1
+    data:
+      width: 250
+      height: 250

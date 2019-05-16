@@ -1,0 +1,13 @@
+uuid: c5d2d434-9d49-4e78-a8ed-99715194ccad
+langcode: en
+status: true
+dependencies: {  }
+id: portada_de_libros
+label: portada_de_libros
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_4
+field_map: {  }

@@ -1,0 +1,63 @@
+uuid: e88cfe3d-355e-49b5-9749-708a0f14bb0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.pruebamedia.field_media
+    - field.field.media.pruebamedia.field_media_image_2
+    - image.style.thumbnail
+    - media.type.pruebamedia
+  module:
+    - image
+    - user
+id: media.pruebamedia.default
+targetEntityType: media
+bundle: pruebamedia
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_media:
+    type: entity_reference_entity_view
+    weight: 7
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_media_image_2:
+    weight: 6
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  thumbnail:
+    type: image
+    weight: 5
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  name: true

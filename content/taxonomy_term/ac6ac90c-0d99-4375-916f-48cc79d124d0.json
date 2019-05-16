@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categorizar_cursos"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categorizar_cursos\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ac6ac90c-0d99-4375-916f-48cc79d124d0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categorizar_cursos"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "segundo ano",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categorizar_cursos\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-04-29T00:48:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

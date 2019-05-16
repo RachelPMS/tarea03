@@ -1,0 +1,194 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libros"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/field_categoria_libros": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b2d2d010-ca56-402a-a9d5-007fbed3142f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 14
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libros"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-05T03:43:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6954d00a-903e-4bca-b6dc-2194f9a89fc5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6954d00a-903e-4bca-b6dc-2194f9a89fc5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/field_categoria_libros": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categorizar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fcce998-fe20-4efa-8998-681e2b8df874"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "El ni\u00f1o con el pijama de rayas",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-05T03:40:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T03:43:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>La acci\u00f3n se narra desde la inocente \u00f3ptica de Bruno, hijo de un oficial de la Shutzstaffel que se muda junto a su familia a un lugar llamado \"Auschwitz\" (en la versi\u00f3n original en ingl\u00e9s <em>Out-With<\/em>), que es el campo de exterminio de Auschwitz. Bruno traba amistad con un ni\u00f1o jud\u00edo llamado Shmuel que vive al otro lado de una reja y que, como otras personas en ese lugar, viste una \"pijama de rayas\".<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>La acci\u00f3n se narra desde la inocente \u00f3ptica de Bruno, hijo de un oficial de la Shutzstaffel que se muda junto a su familia a un lugar llamado \"Auschwitz\" (en la versi\u00f3n original en ingl\u00e9s <em>Out-With<\/em>), que es el campo de exterminio de Auschwitz. Bruno traba amistad con un ni\u00f1o jud\u00edo llamado Shmuel que vive al otro lado de una reja y que, como otras personas en ese lugar, viste una \"pijama de rayas\".<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_autor": [
+        {
+            "value": "John Boyne"
+        }
+    ],
+    "field_editorial": [
+        {
+            "value": "David Flicking Books"
+        }
+    ],
+    "field_lugar_de_publicac": [
+        {
+            "value": "Irlanda"
+        }
+    ]
+}

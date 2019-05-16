@@ -1,0 +1,13 @@
+uuid: 3bc8a74d-e849-46a4-a6eb-bf984299b0cb
+langcode: en
+status: true
+dependencies: {  }
+id: pruebamedia
+label: pruebamedia
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_2
+field_map: {  }

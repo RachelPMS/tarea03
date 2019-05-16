@@ -8,9 +8,12 @@ dependencies:
     - field.field.node.libros.field_categoria_libros
     - field.field.node.libros.field_editorial
     - field.field.node.libros.field_lugar_de_publicac
+    - field.field.node.libros.field_portada
     - field.field.node.libros.field_referencia
+    - image.style.img_libro_grande
     - node.type.libros
   module:
+    - media
     - text
     - user
 id: node.libros.default
@@ -57,6 +60,15 @@ content:
     third_party_settings: {  }
     type: string
     region: content
+  field_portada:
+    type: media_thumbnail
+    weight: 108
+    label: above
+    settings:
+      image_style: img_libro_grande
+      image_link: ''
+    third_party_settings: {  }
+    region: content
   field_referencia:
     type: entity_reference_entity_view
     weight: 107
@@ -68,7 +80,7 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

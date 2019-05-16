@@ -1,0 +1,27 @@
+uuid: 9f95f901-41fd-4746-88c7-924f0576dfdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media
+    - media.type.pruebamedia
+id: media.pruebamedia.field_media
+field_name: field_media
+entity_type: media
+bundle: pruebamedia
+label: media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      pruebamedia: pruebamedia
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

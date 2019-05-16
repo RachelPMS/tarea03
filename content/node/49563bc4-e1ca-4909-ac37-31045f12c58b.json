@@ -1,0 +1,194 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/12?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libros"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/field_categoria_libros": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "49563bc4-e1ca-4909-ac37-31045f12c58b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 12
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libros"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-05T02:03:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6954d00a-903e-4bca-b6dc-2194f9a89fc5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6954d00a-903e-4bca-b6dc-2194f9a89fc5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libros\/field_categoria_libros": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categorizar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fcce998-fe20-4efa-8998-681e2b8df874"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Diario de Ana Fran",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-05T01:58:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T02:03:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Con el t\u00edtulo de <em>El diario de Ana Frank<\/em>,se conoce la edici\u00f3n de los diarios personales escritos por Ana Fran entre el 12 de junio de 1942 y el 1 de agosto de 1944 en un total de tres cuadernos conservados en la actualidad, donde relata su historia como adolescente y los dos a\u00f1os en que permaneci\u00f3 oculta de los nazis, con su familia alemana de origen judi\u00f3, en \u00c1msterdam durante la Segunda Guerra Mundial.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Con el t\u00edtulo de <em>El diario de Ana Frank<\/em>,se conoce la edici\u00f3n de los diarios personales escritos por Ana Fran entre el 12 de junio de 1942 y el 1 de agosto de 1944 en un total de tres cuadernos conservados en la actualidad, donde relata su historia como adolescente y los dos a\u00f1os en que permaneci\u00f3 oculta de los nazis, con su familia alemana de origen judi\u00f3, en \u00c1msterdam durante la Segunda Guerra Mundial.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_autor": [
+        {
+            "value": "Ana Frank"
+        }
+    ],
+    "field_editorial": [
+        {
+            "value": "Contact"
+        }
+    ],
+    "field_lugar_de_publicac": [
+        {
+            "value": "\u00c1msterdam"
+        }
+    ]
+}

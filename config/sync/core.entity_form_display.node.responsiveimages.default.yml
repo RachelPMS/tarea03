@@ -1,22 +1,19 @@
-uuid: f036e0fa-d5ef-4c8e-8e45-51831605534b
+uuid: f9147c64-23b1-4d76-815d-671995ea420a
 langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.buscador_de_cursos
-    - field.field.node.curso.body
-    - field.field.node.curso.field_categoria
-    - field.field.node.curso.field_portada_curso
-    - field.field.node.curso.field_programa
-    - node.type.curso
+    - field.field.node.responsiveimages.body
+    - field.field.node.responsiveimages.field_img
+    - image.style.thumbnail
+    - node.type.responsiveimages
   module:
-    - entity_browser
-    - file
+    - image
     - path
     - text
-id: node.curso.default
+id: node.responsiveimages.default
 targetEntityType: node
-bundle: curso
+bundle: responsiveimages
 mode: default
 content:
   body:
@@ -34,36 +31,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_categoria:
-    weight: 123
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
-  field_portada_curso:
-    weight: 124
-    settings:
-      entity_browser: buscador_de_cursos
-      field_widget_display: rendered_entity
-      field_widget_edit: true
-      field_widget_remove: true
-      selection_mode: selection_append
-      field_widget_display_settings:
-        view_mode: default
-      field_widget_replace: false
-      open: false
-    third_party_settings: {  }
-    type: entity_browser_entity_reference
-    region: content
-  field_programa:
+  field_img:
     weight: 122
     settings:
       progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: file_generic
+    type: image_image
     region: content
   path:
     type: path

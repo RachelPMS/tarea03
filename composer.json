@@ -23,6 +23,7 @@
         "drupal/admin_toolbar": "1.26",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/default_content_deploy": "^1.0@alpha",
         "drupal/devel": "^2.0",
         "drupal/material_base": "^1.6",
         "drupal/media_entity_browser": "2.x-dev",
