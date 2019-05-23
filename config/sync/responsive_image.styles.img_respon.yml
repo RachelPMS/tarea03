@@ -1,0 +1,11 @@
+uuid: cc12a88a-1ffa-4b21-9db8-db2e553b7580
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.imagenes_pequenas
+id: img_respon
+label: img_respon
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: imagenes_pequenas

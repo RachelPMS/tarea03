@@ -28,6 +28,7 @@
         "drupal/material_base": "^1.6",
         "drupal/media_entity_browser": "2.x-dev",
         "drupal/nexus": "^1.4",
+        "drupal/paragraphs": "^1.8",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
