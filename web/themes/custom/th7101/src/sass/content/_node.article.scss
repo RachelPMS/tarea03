@@ -1,0 +1,27 @@
+// Article: Teaser
+// -----------------------------------------------------------------------------
+.article--teaser {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 20px;
+    background: gray("500");
+    border-radius: 30px;
+    padding: 30px;
+    @include media-breakpoint-up(lg){
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+.article--teaser .article__title{
+    color: color('orange');
+    font-weight: bold;
+    font-size: 24px;
+}
+
+// Article: Full
+// -----------------------------------------------------------------------------
+.article--full {
+
+}

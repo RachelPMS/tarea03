@@ -1,0 +1,22 @@
+uuid: 4c5698e4-5edd-45f4-ae3c-77b86aa9df8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th7101
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: th7101_messages
+theme: th7101
+region: header
+weight: -9
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

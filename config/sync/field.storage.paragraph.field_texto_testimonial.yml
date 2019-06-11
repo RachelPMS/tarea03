@@ -1,0 +1,19 @@
+uuid: 8fbb3f42-5715-4068-9af0-8fbfd3257024
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_texto_testimonial
+field_name: field_texto_testimonial
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

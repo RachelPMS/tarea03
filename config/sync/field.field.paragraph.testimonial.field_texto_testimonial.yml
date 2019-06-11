@@ -1,0 +1,21 @@
+uuid: 08bdb09e-df91-4c73-8cb5-e4ef08ad7a89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_testimonial
+    - paragraphs.paragraphs_type.testimonial
+  module:
+    - text
+id: paragraph.testimonial.field_texto_testimonial
+field_name: field_texto_testimonial
+entity_type: paragraph
+bundle: testimonial
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

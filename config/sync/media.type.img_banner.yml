@@ -1,0 +1,13 @@
+uuid: cfdb0085-abda-40ae-9adf-fffa77e50341
+langcode: en
+status: true
+dependencies: {  }
+id: img_banner
+label: img_Banner
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_5
+field_map: {  }

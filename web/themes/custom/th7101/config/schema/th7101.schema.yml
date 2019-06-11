@@ -1,0 +1,5 @@
+# Schema for the configuration files of the th7101 theme.
+
+th7101.settings:
+  type: theme_settings
+  label: 'th7101 settings'

@@ -1,0 +1,32 @@
+uuid: f89cd46f-b81b-499c-8f19-e22461680e1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_libros
+  module:
+    - node
+    - views
+  theme:
+    - th7101
+id: th7101_views_block__lista_de_libros_block_1
+theme: th7101
+region: footer
+weight: -9
+provider: null
+plugin: 'views_block:lista_de_libros-block_1'
+settings:
+  id: 'views_block:lista_de_libros-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      libros: libros
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,9 @@
+uuid: 9ade819c-cbb4-4d3e-9959-bf2572713f09
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial_container
+label: 'Testimonial Container'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

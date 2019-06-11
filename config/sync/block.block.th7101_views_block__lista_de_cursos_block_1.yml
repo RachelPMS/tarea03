@@ -1,0 +1,32 @@
+uuid: bbe54461-1e59-4309-81fd-ea0cc9ed475d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_cursos
+  module:
+    - node
+    - views
+  theme:
+    - th7101
+id: th7101_views_block__lista_de_cursos_block_1
+theme: th7101
+region: footer
+weight: -7
+provider: null
+plugin: 'views_block:lista_de_cursos-block_1'
+settings:
+  id: 'views_block:lista_de_cursos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      curso: curso
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

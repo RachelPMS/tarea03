@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/th7101.style.css: {}
+  js:
+    assets/js/th7101.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

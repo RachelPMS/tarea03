@@ -1,0 +1,32 @@
+uuid: 06b45c86-0de6-4d65-87d7-ed8c9e7d36d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_cursos
+  module:
+    - node
+    - views
+  theme:
+    - radix
+id: radix_views_block__lista_de_cursos_block_1
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: 'views_block:lista_de_cursos-block_1'
+settings:
+  id: 'views_block:lista_de_cursos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      curso: curso
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

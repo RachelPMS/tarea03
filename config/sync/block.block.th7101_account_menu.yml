@@ -1,0 +1,26 @@
+uuid: 00348f20-82df-48ee-aa28-8542ddb036e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - th7101
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: th7101_account_menu
+theme: th7101
+region: navbar_right
+weight: -9
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
