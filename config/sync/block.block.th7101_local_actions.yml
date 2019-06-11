@@ -1,0 +1,20 @@
+uuid: 0587afe8-ef04-42f8-83ad-6bd8d87e7d3d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - th7101
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: th7101_local_actions
+theme: th7101
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

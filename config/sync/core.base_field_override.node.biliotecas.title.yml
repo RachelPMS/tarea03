@@ -1,0 +1,18 @@
+uuid: 8a9d53bf-abf3-47a5-83ba-97ca46f05792
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.biliotecas
+id: node.biliotecas.title
+field_name: title
+entity_type: node
+bundle: biliotecas
+label: 'Nombre de la Biblioteca'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 5c18cd71-386d-4b4e-b156-553e3a37104a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lugar_de_publicac
+    - node.type.libros
+id: node.libros.field_lugar_de_publicac
+field_name: field_lugar_de_publicac
+entity_type: node
+bundle: libros
+label: 'Lugar de Publicacion'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

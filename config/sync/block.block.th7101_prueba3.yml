@@ -1,0 +1,24 @@
+uuid: 924f2691-5210-46fa-b125-5b695b9f82da
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.prueba3
+  module:
+    - system
+  theme:
+    - th7101
+id: th7101_prueba3
+theme: th7101
+region: footer
+weight: -4
+provider: null
+plugin: 'system_menu_block:prueba3'
+settings:
+  id: 'system_menu_block:prueba3'
+  label: prueba3
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 182cbf99-fdeb-416c-9ed1-cb25051e8219
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.mg
+label: 'imgs grandes'
+targetEntityType: media
+cache: true

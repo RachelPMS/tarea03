@@ -1,0 +1,14 @@
+uuid: 8b6a26cb-f851-44db-a1fd-8c9b75e82666
+langcode: en
+status: true
+dependencies: {  }
+name: img_libro_grande
+label: img_libro_grande
+effects:
+  5370c06e-46ad-4dfa-baf8-fed663e0354a:
+    uuid: 5370c06e-46ad-4dfa-baf8-fed663e0354a
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 500

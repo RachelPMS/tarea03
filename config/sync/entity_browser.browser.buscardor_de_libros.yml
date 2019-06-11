@@ -1,0 +1,28 @@
+uuid: 2f2cb860-20f4-4686-a64f-eb1c3eb1a36f
+langcode: en
+status: true
+dependencies: {  }
+name: buscardor_de_libros
+label: buscardor_de_libros
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets:
+  bde9a197-66f5-4b73-9644-9eb9ce3ba605:
+    settings:
+      extensions: 'jpg jpeg png gif svg'
+      media_type: portada_de_libros
+      upload_location: 'public://'
+      multiple: 0
+      submit_text: 'Select files'
+    uuid: bde9a197-66f5-4b73-9644-9eb9ce3ba605
+    weight: 1
+    label: media_image_upload
+    id: media_image_upload

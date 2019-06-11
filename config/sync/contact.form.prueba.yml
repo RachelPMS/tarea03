@@ -1,0 +1,12 @@
+uuid: 5657be62-b2d3-4d7a-adad-0c60863deb02
+langcode: en
+status: true
+dependencies: {  }
+id: prueba
+label: 'Form de prueba'
+recipients:
+  - rachelmedrano.itm@gmail.com
+reply: ''
+weight: 0
+message: 'Gracias por llenar este formulario. Es ud un sol'
+redirect: /node/1

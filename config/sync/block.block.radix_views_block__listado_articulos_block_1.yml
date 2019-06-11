@@ -1,0 +1,32 @@
+uuid: 4b4c9d8e-6c03-4012-8b88-63b1df1b11d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.listado_articulos
+  module:
+    - node
+    - views
+  theme:
+    - radix
+id: radix_views_block__listado_articulos_block_1
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: 'views_block:listado_articulos-block_1'
+settings:
+  id: 'views_block:listado_articulos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

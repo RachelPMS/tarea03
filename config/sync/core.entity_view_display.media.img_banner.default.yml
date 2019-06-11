@@ -1,0 +1,29 @@
+uuid: d2b1aa72-bd4c-455a-b6b8-0bbf9919ea71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.img_banner.field_media_image_5
+    - image.style.estilo_img_banner
+    - media.type.img_banner
+  module:
+    - image
+id: media.img_banner.default
+targetEntityType: media
+bundle: img_banner
+mode: default
+content:
+  field_media_image_5:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: estilo_img_banner
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,14 @@
+uuid: 2aa52aab-69a7-4393-a0c0-e95476f1edcf
+langcode: en
+status: true
+dependencies: {  }
+name: imagenes_grandes
+label: 'Imagenes grandes'
+effects:
+  279e9fdf-bd86-4386-8c5e-d7bd937caff6:
+    uuid: 279e9fdf-bd86-4386-8c5e-d7bd937caff6
+    id: image_resize
+    weight: 1
+    data:
+      width: 1200
+      height: 800

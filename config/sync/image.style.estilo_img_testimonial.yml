@@ -1,0 +1,14 @@
+uuid: a84f56e9-5db0-497d-b877-dfd54571d71e
+langcode: en
+status: true
+dependencies: {  }
+name: estilo_img_testimonial
+label: estilo_img_Testimonial
+effects:
+  bcb180fd-c043-48eb-bb25-d4155eeaedab:
+    uuid: bcb180fd-c043-48eb-bb25-d4155eeaedab
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100

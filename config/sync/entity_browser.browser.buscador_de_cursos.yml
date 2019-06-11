@@ -1,0 +1,28 @@
+uuid: 673e0c46-7575-428a-a0f4-0e5bd91bb511
+langcode: en
+status: true
+dependencies: {  }
+name: buscador_de_cursos
+label: buscador_De_cursos
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets:
+  64fe9133-a248-4c35-bb51-1bc07802d75a:
+    settings:
+      extensions: 'jpg jpeg png gif'
+      media_type: portada_del_curso
+      upload_location: 'public://'
+      multiple: 0
+      submit_text: 'Select files'
+    uuid: 64fe9133-a248-4c35-bb51-1bc07802d75a
+    weight: 1
+    label: media_image_upload
+    id: media_image_upload

@@ -1,0 +1,18 @@
+uuid: 71461bc7-671a-4fff-84c9-7e16505242a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_correo_electronico
+field_name: field_correo_electronico
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

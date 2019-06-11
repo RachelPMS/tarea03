@@ -1,0 +1,28 @@
+uuid: f37479e5-9489-46db-a2c2-a29517bb6654
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagen_testimonal
+    - media.type.img_testimonios
+    - paragraphs.paragraphs_type.testimonial
+id: paragraph.testimonial.field_imagen_testimonal
+field_name: field_imagen_testimonal
+entity_type: paragraph
+bundle: testimonial
+label: Imagen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      img_testimonios: img_testimonios
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

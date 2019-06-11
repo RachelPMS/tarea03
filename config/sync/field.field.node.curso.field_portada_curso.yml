@@ -1,0 +1,28 @@
+uuid: 7ef712f0-49ca-4ff3-8c51-a62ab496bee5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portada_curso
+    - media.type.portada_del_curso
+    - node.type.curso
+id: node.curso.field_portada_curso
+field_name: field_portada_curso
+entity_type: node
+bundle: curso
+label: portada_curso
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      portada_del_curso: portada_del_curso
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

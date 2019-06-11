@@ -1,0 +1,19 @@
+uuid: 500c8e04-c604-4f05-afe2-92b7b81dd352
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre_del_encargado
+    - node.type.biliotecas
+id: node.biliotecas.field_nombre_del_encargado
+field_name: field_nombre_del_encargado
+entity_type: node
+bundle: biliotecas
+label: 'Nombre del Encargado'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

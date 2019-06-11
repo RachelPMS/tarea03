@@ -1,0 +1,9 @@
+uuid: 4055973a-a517-4fe7-a41c-322fe5e9cca8
+langcode: en
+status: true
+dependencies: {  }
+id: title_text_cta
+label: 'Titulo, textos y CTA'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,13 @@
+uuid: 806e3039-0dca-4713-a286-42fb4ebf4d32
+langcode: en
+status: true
+dependencies: {  }
+id: portada_del_curso
+label: 'portada del curso'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_3
+field_map: {  }

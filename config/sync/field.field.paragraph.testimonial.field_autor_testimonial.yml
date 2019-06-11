@@ -1,0 +1,19 @@
+uuid: 1cc286e2-13d1-4835-950b-1d17f51b4b11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_autor_testimonial
+    - paragraphs.paragraphs_type.testimonial
+id: paragraph.testimonial.field_autor_testimonial
+field_name: field_autor_testimonial
+entity_type: paragraph
+bundle: testimonial
+label: Autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

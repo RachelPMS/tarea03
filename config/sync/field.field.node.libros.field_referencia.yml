@@ -1,0 +1,21 @@
+uuid: e2a15e67-85f3-4706-ab69-2c19d8fd96c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referencia
+    - node.type.libros
+id: node.libros.field_referencia
+field_name: field_referencia
+entity_type: node
+bundle: libros
+label: Referencia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

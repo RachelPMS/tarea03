@@ -1,0 +1,13 @@
+uuid: 5603b7be-5bc0-4a7b-b8cd-db61947dfa3a
+langcode: en
+status: true
+dependencies: {  }
+id: imagenes_variadas
+label: 'imagenes variadas'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

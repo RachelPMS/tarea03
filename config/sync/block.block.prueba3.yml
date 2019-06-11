@@ -1,0 +1,24 @@
+uuid: cdfabbbe-a2a4-444e-9119-992f391d2adb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.prueba3
+  module:
+    - system
+  theme:
+    - bartik
+id: prueba3
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:prueba3'
+settings:
+  id: 'system_menu_block:prueba3'
+  label: prueba3
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

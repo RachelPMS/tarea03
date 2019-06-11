@@ -1,0 +1,22 @@
+uuid: a3009fcb-bea4-4a22-b371-e912483bbe61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.biliotecas
+  module:
+    - text
+id: node.biliotecas.body
+field_name: body
+entity_type: node
+bundle: biliotecas
+label: Ubicacion
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

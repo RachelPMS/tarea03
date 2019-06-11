@@ -1,0 +1,20 @@
+uuid: a80a88d0-e142-4592-884a-43ee2e6d3db5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_imagen_testimonal
+field_name: field_imagen_testimonal
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

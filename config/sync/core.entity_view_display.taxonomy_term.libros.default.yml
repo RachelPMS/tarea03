@@ -1,0 +1,13 @@
+uuid: bf695731-0775-4d67-87e5-f379b77b641c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.libros
+id: taxonomy_term.libros.default
+targetEntityType: taxonomy_term
+bundle: libros
+mode: default
+content: {  }
+hidden:
+  description: true

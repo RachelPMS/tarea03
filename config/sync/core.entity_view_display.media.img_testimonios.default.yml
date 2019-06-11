@@ -1,0 +1,29 @@
+uuid: b308d44f-2fc3-47ce-9f8b-f1df2e37977a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.img_testimonios.field_media_image_6
+    - image.style.estilo_img_testimonial
+    - media.type.img_testimonios
+  module:
+    - image
+id: media.img_testimonios.default
+targetEntityType: media
+bundle: img_testimonios
+mode: default
+content:
+  field_media_image_6:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: estilo_img_testimonial
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

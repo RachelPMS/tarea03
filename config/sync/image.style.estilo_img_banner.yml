@@ -1,0 +1,14 @@
+uuid: f9b72dd1-7eac-44c2-ba6e-1614ac448cae
+langcode: en
+status: true
+dependencies: {  }
+name: estilo_img_banner
+label: estilo_img_Banner
+effects:
+  d6886d4e-459a-4e6b-958b-d02ee6cbb21e:
+    uuid: d6886d4e-459a-4e6b-958b-d02ee6cbb21e
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 500

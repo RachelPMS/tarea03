@@ -1,0 +1,32 @@
+uuid: d2d4b607-1e56-49d2-aa02-73d40faa555d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonial_container.field_paragraph_testimonial_cont
+    - field.field.paragraph.testimonial_container.field_title_testimonial_containe
+    - paragraphs.paragraphs_type.testimonial_container
+  module:
+    - entity_reference_revisions
+id: paragraph.testimonial_container.default
+targetEntityType: paragraph
+bundle: testimonial_container
+mode: default
+content:
+  field_paragraph_testimonial_cont:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title_testimonial_containe:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

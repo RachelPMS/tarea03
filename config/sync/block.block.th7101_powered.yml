@@ -1,0 +1,22 @@
+uuid: f7854f93-cb47-40d0-a2b3-76c80777078f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th7101
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: th7101_powered
+theme: th7101
+region: footer
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

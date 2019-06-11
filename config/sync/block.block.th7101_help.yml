@@ -1,0 +1,22 @@
+uuid: 55f64cde-2a83-49d8-b150-de35126ca16f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - th7101
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: th7101_help
+theme: th7101
+region: header
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

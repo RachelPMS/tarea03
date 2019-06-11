@@ -1,0 +1,22 @@
+uuid: 99637c78-fe47-4ced-9114-86025a0e7a82
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th7101
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: th7101_content
+theme: th7101
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
